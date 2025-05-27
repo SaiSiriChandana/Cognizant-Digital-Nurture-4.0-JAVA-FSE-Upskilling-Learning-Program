@@ -1,0 +1,3 @@
+CSS folder: contains compiled Bootstrap stylesheets.
+JS folder: includes interactive plugins like modals, dropdowns.
+Icons folder: includes SVG icons for use across the site.

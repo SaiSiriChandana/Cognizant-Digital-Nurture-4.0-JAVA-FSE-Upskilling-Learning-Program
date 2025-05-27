@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback</title>
+</head>
+<body>
+  <form>
+    Phone: <input type="text" onblur="validatePhone(this)"><br>
+    Event Type:
+    <select onchange="showFee(this)">
+      <option value="">Select Event</option>
+      <option value="0">Kids Art Event (Free)</option>
+      <option value="50">Local Concert - ₹50</option>
+      <option value="30">Cultural Festival - ₹30</option>
+      <option value="20">Youth Sports Tournament - ₹20</option>
+      <option value="10">Charity Run - ₹10</option>
+      <option value="0">Community Cleanup (Free)</option>
+    </select>
+    <p id="fee">Fee: </p>
+    <img src="images/like.png" ondblclick="this.style.width='3px'"><br>
+    Feedback:<br>
+    <textarea onkeyup="countChars(this)"></textarea>
+    <p id="charCount">0 characters</p>
+  </form>
+  <button onclick="alert('Thank you!')">Submit</button><br>
+  <script>
+    function validatePhone(input) {
+      if (!/^\d{10}$/.test(input.value)) {
+        alert("Invalid phone number. Please enter 10 digits.");
+      }
+    }
+    function showFee(sel) {
+      if (sel.value === "") {
+        document.getElementById("fee").innerText = "Fee: ";
+      } else {
+        const feeValue = parseInt(sel.value);
+        const feeText = feeValue === 0 ? "Free" : "₹" + feeValue;
+        document.getElementById("fee").innerText = "Fee: " + feeText;
+      }
+    }
+
+    function countChars(txt) {
+      document.getElementById("charCount").innerText = txt.value.length + " characters";
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Community Events Promo</title>
+</head>
+<body>
+  <h1>🌟 Welcome to the Local Community Events Portal</h1>
+  <p>Discover upcoming events, connect with neighbors, and celebrate your city!</p>
+
+  <video id="promo" width="320" height="240" controls oncanplay="videoReady()">
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  
+  <p id="videoMsg"></p>
+
+  <p>
+    <a href="https://www.w3schools.com/html/mov_bbb.mp4" download>📥 Download Promo Video</a>
+  </p>
+
+  <script>
+    function videoReady() {
+      document.getElementById('videoMsg').innerText = "🎬 Promo video is ready to play!";
+    }
+
+    window.onbeforeunload = function () {
+      return "Wait! Have you finished watching the community promo video?";
+    };
+  </script>
+</body>
+</html>
+

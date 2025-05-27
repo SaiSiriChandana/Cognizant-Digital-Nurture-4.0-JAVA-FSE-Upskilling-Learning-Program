@@ -1,0 +1,10 @@
+body {
+  background-color: #f2f2f2;
+  background-image: url('images/background.jpg');
+  background-size: cover;
+}
+section h2 {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  padding: 10px;
+}

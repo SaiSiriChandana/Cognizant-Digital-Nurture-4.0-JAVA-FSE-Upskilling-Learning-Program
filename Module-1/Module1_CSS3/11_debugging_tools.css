@@ -1,0 +1,10 @@
+/* Debugging helper: highlights elements with a light yellow box and orange dashed border */
+/* Use this class to easily spot elements during development/debugging */
+.debug-box {
+  background-color: #fff9c4; /* light yellow */
+  border: 2px dashed #ff9800; /* orange */
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+  color: #bf360c; /* dark orange text for contrast */
+}

@@ -1,0 +1,32 @@
+/* CSS Inclusion Methods */
+/* 
+   This file demonstrates the use of external CSS. 
+   It complements inline and internal styles by applying global styling across the HTML page.
+*/
+
+/* Example of inline style (defined directly in HTML):
+   <h1 style="color: red;">Hello</h1>
+*/
+
+/* Example of internal style (defined inside <style> tags in HTML head):
+   <style>
+     h1 { color: blue; }
+   </style>
+*/
+
+/* External styles (this file) are linked to HTML using:
+   <link rel="stylesheet" href="Task_01_CSS_inclusion.css">
+*/
+
+/* Page background styling */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading styling */
+h1 {
+  color: green;
+  font-size: 28px;
+  text-align: center;
+}

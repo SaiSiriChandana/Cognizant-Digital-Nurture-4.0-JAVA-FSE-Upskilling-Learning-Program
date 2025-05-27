@@ -1,0 +1,20 @@
+/* Reset spacing and box model */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Style for main CTA button */
+.cta-button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+/* Hover effect for CTA button */
+.cta-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,22 @@
+a:link {
+  color: #0066cc;
+}
+a:hover {
+  color: #ff6600;
+}
+a:visited {
+  color: #9933cc;
+}
+a:active {
+  color: #cc0000;
+}
+nav ul {
+  list-style-type: none;
+  list-style-position: inside;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  margin-right: 15px;
+}

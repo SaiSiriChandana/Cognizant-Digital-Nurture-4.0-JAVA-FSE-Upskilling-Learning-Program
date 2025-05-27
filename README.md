@@ -8,10 +8,10 @@ This repository contains hands-on exercises and learning tasks from the Cognizan
 
 
 ### 🔹 Module 1: Front-End Technologies
-- `Module1-HTML5`: Basics of HTML5
-- `Module1-CSS3`: Styling with CSS3
-- `Module1-JavaScript`: JavaScript fundamentals
-- `Module1-Bootstrap5`: Responsive design with Bootstrap 5
+- `HTML5`: Basics of HTML5
+- `CSS3`: Styling with CSS3
+- `JavaScript`: JavaScript fundamentals
+- `Bootstrap5`: Responsive design with Bootstrap 5
 
 ### 🔹 Module 2: ANSI SQL using MySQL
 - `ANSI_SQL_Using_MySQL`: Writing SQL queries using MySQL
